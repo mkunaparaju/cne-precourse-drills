@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Business implements Addressable {
     private String name;
-    private ArrayList<Address> addresses;
+    private final ArrayList<Address> addresses;
 
     public Business(String name){
         this.name = name;

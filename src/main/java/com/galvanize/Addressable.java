@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface Addressable {
 
-    public List<Address> getAddresses();
+    List<Address> getAddresses();
 
-    public void addAddress(Address address);
+    void addAddress(Address address);
 }
